@@ -81,6 +81,15 @@ a:hover {
   cursor: default;
 }
 
+#about-us,
+#choose-us,
+#contact,
+#location,
+#our-services,
+#schedule {
+  scroll-margin-top: 85px; 
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {

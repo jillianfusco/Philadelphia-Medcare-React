@@ -7,8 +7,8 @@ export default function ChooseUs() {
         <p>
             <span class="bold">Experienced Chiropractors:</span> Decades of combined experience in treating injuries and chronic pain. <br />
             <span class="bold">Personalized Treatment Plans: </span>Care designed specifically for your needs and condition. <br />
-            <span class="bold">State-of-the-Art Facilities: </span>Equipped with modern technology to ensure effective treatment. <br />
-            <span class="bold">Two Convenient Locations: </span>Easy access to quality care, no matter where you are in Philadelphia. <br />
+            <span class="bold">State-of-the-Art Facility: </span>Equipped with modern technology to ensure effective treatment. <br />
+            <span class="bold">Convenient Location: </span>Easy access to quality care in Philadelphia. <br />
             <span class="bold">Compassionate Care: </span>We take the time to understand your concerns and work toward long-term health solutions. <br />
 
             <h3>Testimonials</h3>

@@ -14,7 +14,7 @@ export default function Profile() {
                     
                     <h1 className="title">Philadelphia Medcare</h1>
                     <p className="section__text__p1">Chiropractor for Injury Recovery and Pain Relief</p>
-                    <p className="section__text__p2">Call us today! <br /> <span id="phone" >(215) 387-4491</span></p>
+                    <p className="section__text__p2">Call us today! <br /> <span id="phone" >(215) 329-6136</span></p>
                     <div className="btn-container">
                         <button className="btn btn-color-2" onClick={() => (window.location.href = './#location')}>Our Location</button>
                         <button className="btn btn-color-1" onClick={() => (window.location.href = './#contact')}>Contact</button>
