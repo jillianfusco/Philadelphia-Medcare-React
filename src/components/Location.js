@@ -3,7 +3,7 @@ import React from "react";
 export default function Location() {
     return (
         <section id="location">
-            <h1>Location</h1>
+            <h1>Our Location</h1>
             <p>We are proud to serve the Philadelphia community with an easily accessible clinic: <br /><br />
                 
                 <span className="bold">North Philadelphia Office</span><br />

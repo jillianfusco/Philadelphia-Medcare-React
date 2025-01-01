@@ -16,7 +16,7 @@ export default function Profile() {
                     <p className="section__text__p1">Chiropractor for Injury Recovery and Pain Relief</p>
                     <p className="section__text__p2">Call us today! <br /> <span id="phone" >(215) 387-4491</span></p>
                     <div className="btn-container">
-                        <button className="btn btn-color-2" onClick={() => (window.location.href = './#our-locations')}>Our Locations</button>
+                        <button className="btn btn-color-2" onClick={() => (window.location.href = './#location')}>Our Location</button>
                         <button className="btn btn-color-1" onClick={() => (window.location.href = './#contact')}>Contact</button>
                     </div>
                 </div>        
