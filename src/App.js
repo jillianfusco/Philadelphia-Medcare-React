@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Aboutus from './components/AboutUs';
 import OurServices from './components/OurServices';
+import OurLocations from './components/OurLocations';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Profile />
       <Aboutus />
       <OurServices />
+      <OurLocations />
     </div>
   );
 }
