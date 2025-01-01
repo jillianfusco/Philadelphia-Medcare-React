@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .section__pic-container {
+        display: none;
+    }
+
+    p {
+        padding-left: 0px;
+        font-size: x-large;
+    }
+
+    #services-list {
+        font-size: x-large;
+    }
+
+    section {
+        margin: 0 2rem;
+    }
+}

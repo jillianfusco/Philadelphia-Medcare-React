@@ -1,0 +1,340 @@
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#phone a {
+  color: #155a8e; 
+  text-decoration: none;
+}
+
+
+#phone a:visited, #phone a:active {
+  color: #6096ba; 
+  text-decoration: none; 
+}
+
+/* TRANSITION */
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+#desktop-nav {
+  position: fixed;
+  background-color: #155a8e;
+  width: 100%;
+}
+
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.3rem; 
+}
+
+a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration-color: #155a8e;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+  text-underline-offset: .8rem;
+  text-decoration-color:whitesmoke;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.logo:hover{
+  cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+  position: fixed;
+  background-color: #155a8e;
+  width: 100%;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: whitesmoke;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 350px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);    
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:nth-child(2) {
+  opacity: 1;
+}
+
+.hamburger-icon span:last-child {
+  transform: none;
+}
+
+/* SECTIONS */
+section {
+  padding-top: 5vh;
+  /* height: 96vh; */
+  margin: 0 5rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  padding-top: 15vh;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  color: #155a8e;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #155a8e;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+}
+
+/* BUTTONS */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.btn-color-1 {
+  
+  border: #155a8e 0.1rem solid;    
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1, .btn-color-2:hover {
+  background-color: #155a8e;
+  color: whitesmoke;
+}
+
+.btn-color-1:hover {
+  background-color:black;
+  color: whitesmoke;
+  border: whitesmoke 0.1rem solid;
+}
+
+.btn-color-2 {
+  background: none;
+  border:  black 0.1rem solid;
+  color: black;
+}
+
+.btn-color-2:hover {
+  border: whitesmoke 0.1rem solid;
+  gap: 1rem;
+}
+
+/* SECTIONS IN BODY */
+
+p {
+  color: black;
+  font-size: larger;
+  font-weight: 400;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+h1 {
+  color: #155a8e;
+  padding-bottom: 10px;
+}
+
+#services-list {
+  padding-left: 60px;
+  font-size: larger;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/* FORM */
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"], textarea {
+  background-color: whitesmoke; /* Example light color */
+  color: #333; /* Text color inside input */
+  border: 1px solid #ccc; /* Border color */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* COLOR PALLETTE */
+/* #e7ecef ICE GREY */
+/* #8b8c89 DARK GREY */
+/* #274c77 NAVY BLUE */
+/* #6096ba MEDIUM BLUE */
+/* #a3cef1 LIGHT BLUE */
+/* #f3f6f7 FORM INPUT BOX */
+
+/* NEW COLOR PALLETTE */
+/* BACKGROUND WHITESMOKE */
+/* dark blue #155a8e */
+
+
