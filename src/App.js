@@ -5,6 +5,8 @@ import Profile from './components/Profile';
 import Aboutus from './components/AboutUs';
 import OurServices from './components/OurServices';
 import OurLocations from './components/OurLocations';
+import ChooseUs from './components/ChooseUs';
+import Schedule from './components/Schedule';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Aboutus />
       <OurServices />
       <OurLocations />
+      <ChooseUs />
+      <Schedule />
     </div>
   );
 }
