@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Aboutus from './components/AboutUs';
 import OurServices from './components/OurServices';
-import OurLocations from './components/OurLocations';
+import Location from './components/Location';
 import ChooseUs from './components/ChooseUs';
 import Schedule from './components/Schedule';
 import Contact from './components/Contact';
@@ -16,7 +16,7 @@ function App() {
       <Profile />
       <Aboutus />
       <OurServices />
-      <OurLocations />
+      <Location />
       <ChooseUs />
       <Schedule />
       <Contact />
