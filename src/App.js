@@ -7,6 +7,7 @@ import OurServices from './components/OurServices';
 import OurLocations from './components/OurLocations';
 import ChooseUs from './components/ChooseUs';
 import Schedule from './components/Schedule';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OurLocations />
       <ChooseUs />
       <Schedule />
+      <Contact />
     </div>
   );
 }
