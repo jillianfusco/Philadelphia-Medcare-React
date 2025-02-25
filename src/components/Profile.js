@@ -1,5 +1,6 @@
 import React from "react";
 import spineSketch from '../assets/spineSketch.jpg';
+import spineLogo from '../assets/spineLogo.png';
 
 export default function Profile() {
 
@@ -7,7 +8,8 @@ export default function Profile() {
         <div>
             <section id="profile">
                 <div className="section__pic-container">
-                    <img src={spineSketch} alt="spine sketch" />
+                    {/* <img src={spineSketch} alt="spine sketch" /> */}
+                    <img src={spineLogo} alt="spine logo" />
                 </div>
 
                 <div className="section__text">
